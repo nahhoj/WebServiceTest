@@ -1,0 +1,7 @@
+---
+applications:
+- name: WebServiceTest
+  buildpack: go_buildpack
+  memory: 256M
+  env:
+    GOPACKAGENAME : WebServiceTest
